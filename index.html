@@ -1,13 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>My Portfolio</title>
   <link rel="stylesheet" href="style.css">
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
+
 <body>
 
   <div class="container">
@@ -15,12 +17,13 @@
       <h1>Viniba Arockia Mary S</h1>
       <div class="role">Web Developer</div>
       <p class="bio">Dedicated to creating user-centered, responsive, and dynamic web experiences.</p>
-      
+
       <div class="nav">
         <a href="#" onclick="showSection('about')" class="active">🙋 ABOUT</a>
         <a href="#" onclick="showSection('experience')">💼 EXPERIENCE</a>
         <a href="#" onclick="showSection('projects')">🛠️ PROJECTS</a>
-        <a href="#" onclick="showSection('education')"> <i class="fas fa-graduation-cap" style="color:#4B9CD3;"></i> EDUCATION</a>
+        <a href="#" onclick="showSection('education')"> <i class="fas fa-graduation-cap" style="color:#4B9CD3;"></i>
+          EDUCATION</a>
       </div>
     </header>
 
@@ -30,104 +33,108 @@
           <img src="istockphoto-1450969748-612x612.jpg" alt="Your Name" class="profile-img">
           <div class="profile-text">
             <p>
-              With a strong interest in web development, I enjoy creating user-friendly and engaging digital experiences. 
+              With a strong interest in web development, I enjoy creating user-friendly and engaging digital
+              experiences.
               I constantly explore new technologies to build efficient, responsive, and intuitive websites.
             </p>
           </div>
         </div>
       </section>
 
-     <section id="experience" class="section">
-  <h2><i class="fas fa-briefcase"></i> Experience</h2>
-  
-  <div>
-    <h3> 🧑‍💻 <strong>Front-End Developer – Greensoft Groups</strong></h3>
-    <p><strong>2024 – Present</strong></p>
-    <p>Currently working as a Front-End Developer, building modern web interfaces.</p>
-  </div>
+      <section id="experience" class="section">
+        <h2><i class="fas fa-briefcase"></i> Experience</h2>
 
-  <div>
-    <h3>💻 <strong>Associate Software Developer Trainee – Varnik System Service Pvt. Ltd.</strong></h3>
-    <p><strong>2023 – 2024 (Part-time)</strong></p>
-    <p>Worked as an Associate Software Developer Trainee, contributing to software development tasks and gaining hands-on experience during the time period.</p>
-  </div>
+        <div>
+          <h3> 🧑‍💻 <strong>Front-End Developer – Greensoft Groups</strong></h3>
+          <p><strong>2024 – Present</strong></p>
+          <p>Currently working as a Front-End Developer, building modern web interfaces.</p>
+        </div>
 
-  <div>
-    <h3>🏭 <strong> Machine Operator – Igarashi Motors India Ltd.</strong></h3>
-    <p><strong>2018 – 2021</strong></p>
-    <p>Worked as a Machine Operator based on ITI qualification, operating machinery and ensuring production quality in a manufacturing environment.</p>
-  </div>
-</section>
+        <div>
+          <h3>💻 <strong>Associate Software Developer Trainee – Varnik System Service Pvt. Ltd.</strong></h3>
+          <p><strong>2023 – 2024 (Part-time)</strong></p>
+          <p>Worked as an Associate Software Developer Trainee, contributing to software development tasks and gaining
+            hands-on experience during the time period.</p>
+        </div>
+
+        <div>
+          <h3>🏭 <strong> Machine Operator – Igarashi Motors India Ltd.</strong></h3>
+          <p><strong>2018 – 2021</strong></p>
+          <p>Worked as a Machine Operator based on ITI qualification, operating machinery and ensuring production
+            quality in a manufacturing environment.</p>
+        </div>
+      </section>
 
 
       <section id="projects" class="section">
         <h2>Selected Projects</h2>
         <ul id="project-list">
-          <li><a href="#" class="project-link" data-project="spotify">Spotify Now</a></li>
-          <li><a href="#" class="project-link" data-project="portfolio">Portfolio Builder</a></li>
-          <li><a href="#" class="project-link" data-project="uikit">UI Kit</a></li>
+            <li><a href="#" class="project-link" data-project="spotify">Spotify Now</a></li>
+            <li><a href="#" class="project-link" data-project="portfolio">Portfolio Builder</a></li>
+            <li><a href="#" class="project-link" data-project="uikit">UI Kit</a></li>
         </ul>
 
         <div id="project-details" style="display: none;">
-          <h3 id="project-title"></h3>
-          <div id="project-description"></div>
-          <button onclick="hideProjectDetails()">← Back to Projects</button>
+            <h3 id="project-title"></h3>
+            <div id="project-description"></div>
+            <button onclick="hideProjectDetails()">← Back to Projects</button>
         </div>
       </section>
 
       <section id="education" class="section">
         <h2>Education</h2>
-        <p><strong> <span style="font-size: 20px; color: #27AE60;">🧑‍🎓</span> Bachelor of Computer Applications</strong><br>
-        St.Antony's College of Arts and Sciences for Women, 2021 – 2024</p>
-        
+        <p><strong> <span style="font-size: 20px; color: #27AE60;">🧑‍🎓</span> Bachelor of Computer
+            Applications</strong><br>
+          St.Antony's College of Arts and Sciences for Women, 2021 – 2024</p>
+
         <p><strong><span style="font-size: 20px; color: #27AE60;">🧑‍🎓</span>ITI Electrician</strong><br>
-        Government ITI, 2015 – 2017</p>
+          Government ITI, 2015 – 2017</p>
         <!-- <p><strong>Relevant Courses:</strong> Data Structures, Web Development, Algorithms, Machine Learning</p> -->
-         <p><strong> <i style="display:inline-block; width:24px; height:24px; vertical-align:middle;">
-  <svg xmlns="http://www.w3.org/2000/svg" fill="#F1C40F" viewBox="0 0 24 24" width="24" height="24">
-    <path d="M9 21h6v-1H9v1zm3-18C7.92 3 5 6.2 5 10c0 2.72 1.81 5.03 4.32 5.7v3.55h5.36v-3.55c2.51-.67 4.32-2.98 4.32-5.7 0-3.8-2.92-7-6-7zM12 16c-1.65 0-3-1.79-3-4 0-1.32.67-2.62 2-3.32V7c0-.55.45-1 1-1s1 .45 1 1v1.68c1.33.7 2 2 2 3.32 0 2.21-1.35 4-3 4z"/>
-  </svg>
-</i>Expertise:</strong> Angular, HTML, CSS, Java Script.</p>
+        <p><strong> <i style="display:inline-block; width:24px; height:24px; vertical-align:middle;">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="#F1C40F" viewBox="0 0 24 24" width="24" height="24">
+                <path
+                  d="M9 21h6v-1H9v1zm3-18C7.92 3 5 6.2 5 10c0 2.72 1.81 5.03 4.32 5.7v3.55h5.36v-3.55c2.51-.67 4.32-2.98 4.32-5.7 0-3.8-2.92-7-6-7zM12 16c-1.65 0-3-1.79-3-4 0-1.32.67-2.62 2-3.32V7c0-.55.45-1 1-1s1 .45 1 1v1.68c1.33.7 2 2 2 3.32 0 2.21-1.35 4-3 4z" />
+              </svg>
+            </i>Expertise:</strong> Angular, HTML, CSS, Java Script.</p>
       </section>
 
-      
+
     </main>
   </div>
 
-<footer class="fixed-footer">
-  <div class="footer-content">
-    <div class="footer-contact">
-      <a href="mailto:your.email@example.com">
-        <i class="fas fa-envelope"></i>
-        <span>vinibca24@gmail.com</span>
-      </a>
-      
-      <a href="https://github.com/viniba23" target="_blank" rel="noopener noreferrer">
-        <i class="fab fa-github"></i>
-        <span>GitHub</span>
-      </a>
-      <a href="https://www.linkedin.com/in/viniba-arockia-mary-s" target="_blank" rel="noopener noreferrer">
-        <i class="fab fa-linkedin"></i>
-        <span>LinkedIn</span>
-      </a>
-      
-      <a href="">
-        <i class="fas fa-phone"></i>
-        <span>+1 994-423-9615</span>
-      </a>
-      <a>
-        <i class="fas fa-map-marker-alt"></i>
-        <span>Dindigul</span>
-      </a>
-      <a href="https://drive.google.com/file/d/1-bt67_vtv1x2PwhYFjJ1OO5Tk3Ll81Yx/view?usp=sharing" target="_blank" rel="noopener noreferrer" >
-        <i class="fas fa-file-pdf" ></i>
-        <span>Resume</span>
-      </a>
+  <footer class="fixed-footer">
+    <div class="footer-content">
+      <div class="footer-contact">
+        <a href="https://drive.google.com/file/d/1-bt67_vtv1x2PwhYFjJ1OO5Tk3Ll81Yx/view?usp=sharing" target="_blank"
+          rel="noopener noreferrer">
+          <i class="fas fa-file-pdf"></i>
+          <span>Resume</span>
+        </a>
+        <a href="#">
+          <i class="fas fa-envelope"></i>
+          <span>vinibca24@gmail.com</span>
+        </a>
+        <a href="https://github.com/viniba23" target="_blank" rel="noopener noreferrer">
+          <i class="fab fa-github"></i>
+          <span>GitHub</span>
+        </a>
+        <a href="https://www.linkedin.com/in/viniba-arockia-mary-s" target="_blank" rel="noopener noreferrer">
+          <i class="fab fa-linkedin"></i>
+          <span>LinkedIn</span>
+        </a>
+        <a href="">
+          <i class="fas fa-phone"></i>
+          <span>+1 994-423-9615</span>
+        </a>
+        <a>
+          <i class="fas fa-map-marker-alt"></i>
+          <span>Dindigul</span>
+        </a>
+        
+      </div>
     </div>
-  </div>
-</footer>
-
-
-  <script src="script.js"> </script>
+  </footer>
+<script src="script.js"> </script>
 </body>
+
 </html>

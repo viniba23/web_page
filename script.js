@@ -13,7 +13,7 @@ function showSection(id) {
       },
       portfolio: {
         title: 'Portfolio Builder',
-        description: 'A minimalist portfolio site generator built with HTML/CSS/JS. Users can create and deploy their own sites easily.'
+        description: `A lightweight, responsive tool designed to help users quickly build and customize personal portfolios. I developed a sample portfolio template using HTML, CSS, and JavaScript, and the source code is publicly accessible for reference and use.\n <br><a href="https://www.w3schools.com" target="_blank" style="color:white;">Template  Link</a>`
       },
       uikit: {
         title: 'UI Kit',
@@ -27,7 +27,7 @@ function showSection(id) {
         const key = this.getAttribute('data-project');
         const project = projectData[key];
         document.getElementById('project-title').textContent = project.title;
-        document.getElementById('project-description').textContent = project.description;
+        document.getElementById('project-description').innerHTML = project.description;
         document.getElementById('project-list').style.display = 'none';
         document.getElementById('project-details').style.display = 'block';
       });

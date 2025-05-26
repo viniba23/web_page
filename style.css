@@ -15,6 +15,7 @@ body {
 
     header {
       margin-bottom: 40px;
+      /* position: fixed; */
     }
 
     h1 {
@@ -241,4 +242,9 @@ body {
       color: #64ffda;
     }
 
-   
+   /* .fixed-header{
+        position: fixed;
+      bottom: 0;
+      left: 0;
+      right: 0;
+   } */

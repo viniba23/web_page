@@ -7,10 +7,7 @@ function showSection(id) {
     }
 
     const projectData = {
-      spotify: {
-        title: 'Spotify Now',
-        description: 'A real-time music dashboard using React and the Spotify API. Built with dynamic data fetching and sleek UI elements.'
-      },
+      
       portfolio: {
         title: 'Portfolio Builder',
         description: `A lightweight, responsive tool designed to help users quickly build and customize personal portfolios. I developed a sample portfolio template using HTML, CSS, and JavaScript, and the source code is publicly accessible for reference and use.<br><br><a href="https://github.com/viniba23/template_design.git" target="_blank" style="color:white;">Template  Link</a>`
@@ -18,6 +15,10 @@ function showSection(id) {
       uikit: {
         title: 'Students Details Management System',
         description: 'The Student Details Management System is a web-based application built with Angular that provides an efficient way to manage student information in educational institutions.<br><br><a href="https://github.com/viniba23/develop1.git" target="_blank" style="color:white;">Project GitHub Link</a>'
+      },
+      spotify: {
+        title: 'Hummingbird Horizon',
+        description: 'This project was developed purely for learning and experimentation with CSS-based animations and 3D effects. It features a simulated animation of a bird flying over a scenic background using only HTML and CSS, without JavaScript.<br><br><a href="https://viniba23.github.io/website/" target="_blank" style="color:white;">Design  Link</a>'
       }
     };
 

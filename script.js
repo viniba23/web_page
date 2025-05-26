@@ -13,11 +13,11 @@ function showSection(id) {
       },
       portfolio: {
         title: 'Portfolio Builder',
-        description: `A lightweight, responsive tool designed to help users quickly build and customize personal portfolios. I developed a sample portfolio template using HTML, CSS, and JavaScript, and the source code is publicly accessible for reference and use.\n <br><a href="https://github.com/viniba23/template_design.git" target="_blank" style="color:white;">Template  Link</a>`
+        description: `A lightweight, responsive tool designed to help users quickly build and customize personal portfolios. I developed a sample portfolio template using HTML, CSS, and JavaScript, and the source code is publicly accessible for reference and use.<br><br><a href="https://github.com/viniba23/template_design.git" target="_blank" style="color:white;">Template  Link</a>`
       },
       uikit: {
         title: 'Students Details Management System',
-        description: 'The Student Details Management System is a web-based application built with Angular that provides an efficient way to manage student information in educational institutions.\n <br><a href="https://github.com/viniba23/develop1.git" target="_blank" style="color:white;">Project GitHub Link</a>'
+        description: 'The Student Details Management System is a web-based application built with Angular that provides an efficient way to manage student information in educational institutions.<br><br><a href="https://github.com/viniba23/develop1.git" target="_blank" style="color:white;">Project GitHub Link</a>'
       }
     };
 
@@ -38,8 +38,4 @@ function showSection(id) {
       document.getElementById('project-details').style.display = 'none';
     }
 
-    document.getElementById('contactForm').addEventListener('submit', function(e) {
-      e.preventDefault();
-      alert('Message sent successfully!');
-      this.reset();
-    });
+   

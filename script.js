@@ -13,11 +13,11 @@ function showSection(id) {
       },
       portfolio: {
         title: 'Portfolio Builder',
-        description: `A lightweight, responsive tool designed to help users quickly build and customize personal portfolios. I developed a sample portfolio template using HTML, CSS, and JavaScript, and the source code is publicly accessible for reference and use.\n <br><a href="https://www.w3schools.com" target="_blank" style="color:white;">Template  Link</a>`
+        description: `A lightweight, responsive tool designed to help users quickly build and customize personal portfolios. I developed a sample portfolio template using HTML, CSS, and JavaScript, and the source code is publicly accessible for reference and use.\n <br><a href="https://github.com/viniba23/template_design.git" target="_blank" style="color:white;">Template  Link</a>`
       },
       uikit: {
-        title: 'UI Kit',
-        description: 'A reusable design system used for building consistent UI components efficiently.'
+        title: 'Students Details Management System',
+        description: 'The Student Details Management System is a web-based application built with Angular that provides an efficient way to manage student information in educational institutions.\n <br><a href="https://github.com/viniba23/develop1.git" target="_blank" style="color:white;">Project GitHub Link</a>'
       }
     };
 

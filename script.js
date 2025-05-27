@@ -14,7 +14,7 @@ function showSection(id) {
       },
       spotify: {
         title: 'Simple Web Calculator Using HTML, CSS, and JavaScript',
-        description: 'This is a simple web-based calculator designed using HTML, CSS, and JavaScript. It features a dark-themed interface with rounded buttons, a top display area, and colored operator keys for easy identification. The calculator supports basic arithmetic operations and uses the eval() function to compute the entered expressions.<br><br><a href="https://viniba23.github.io/calculator/" target="_blank" style="color:white;">Calculator  Link</a>'
+        description: 'This is a simple web-based calculator designed using HTML, CSS, and JavaScript. It features a dark-themed interface with capsule buttons, a top display area, and colored operator keys for easy identification. The calculator supports basic arithmetic operations and uses the eval() function to compute the entered expressions.<br><br><a href="https://viniba23.github.io/calculator/" target="_blank" style="color:white;">Calculator  Link</a>'
       },
       uikit: {
         title: 'Students Details Management System',
